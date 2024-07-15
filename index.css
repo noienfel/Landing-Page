@@ -1,0 +1,604 @@
+.cabecalho {
+    background-image: url(img/fundocabecalho.png);
+    background-size: cover;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.textos {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.cabecalho__container {
+
+    justify-content: space-between;
+
+}
+
+.texto__header {
+    flex-direction: column;
+    gap: 3em;
+}
+
+
+.titulo, .titulinho {
+    
+ display: flex;
+ justify-content: center;
+ background-color: var(--transparente);
+ background-size: cover;
+}
+.titulinho{
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px; 
+
+}
+.cabecalho {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.titulo {
+font-size: 80px;
+text-align: center;
+font-family: Inter;
+font-size: 96px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+
+}
+
+.cima{
+    background-color: var(--transparente);
+}
+.menu__lista {
+    display: flex;
+    justify-content: right;
+    background-color: var(--transparente);
+    padding: 20px;
+  }
+.conta{
+    margin-left: 80px;
+}
+.pesquisa{
+  margin-right: 1030px;
+}
+.Selecao__linguagem {
+ 
+}
+
+.reserva_nav {
+    padding: 10px 20px;
+    background-color: var(--botaoheader);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin-left: 80px;
+    
+
+}
+
+.reserva_nav:hover {
+    background-color: #0056b3;
+      
+}
+
+
+.sobre__barra {
+    padding: 30px;
+  
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    color: var(--preto);
+    background-color: var(--transparenteforte)
+}
+
+.hotel {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+
+.sobre {
+}
+
+
+.hotel{
+margin-top: 200px;
+}
+.hotel, .hotelzinho{
+margin-left: 100px;
+display: flex;
+color: var(--fundo);
+text-align: center;
+text-shadow:
+-1px -1px 0 #000,  
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000; 
+/* FONTES/Headline 2 */
+-webkit-text-stroke-width: 2;
+-webkit-text-stroke-color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.descricao {
+   
+    color: var(--fundo);  
+}
+
+.reservar__header {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 15px;
+    color: var(--branco);
+    border-color: var(--branco);
+    display: flex;
+    background-color: transparent;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+.textos__info {}
+
+.info__titulo {
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 40px;
+
+}
+
+.info_paragrafo {
+    margin-bottom: 50px;
+    word-spacing: 7px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: justify;
+
+
+}
+
+.reserva {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 125px;
+    background-color: var(--fundo);
+    border: none;
+    border-bottom: 2px solid var(--preto);
+    cursor: pointer;
+    transition: 0.7s ease;
+    display: flex;
+}
+
+.reserva:hover {
+    transform: scale(1.2);
+}
+
+.info__titulo,
+.info_paragrafo,
+.reserva,
+.quartos__texto,
+.quarto__sub,
+.titulo__quartos,
+.titulo__ofertas,
+.ofertas__sub {
+    margin-left: -120px;
+}
+
+.quartos__texto {
+    margin-right: -1;
+}
+
+.titulo__quartos {
+    font-size: 50px;
+
+}
+
+.quarto__sub {
+    font-size: 25px;
+
+}
+
+.titulo__quartos,
+.quarto__sub {
+    margin-right: -60px;
+}
+
+.quarto__sub,
+.titulo__quartos,
+.titulo__ofertas,
+.ofertas__sub {
+    margin-bottom: 20px;
+}
+
+.quartos {
+    display: flex;
+}
+
+.simple__plan {
+    background-image: url(/img/quartosimples.png);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    margin-right: 60px;
+    margin-left: -200px;
+    padding: 20px;
+
+}
+
+.titulo_sp {
+    background-color: var(--branco);
+    font-weight: 10;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.paragrafo_sp {
+    background-color: var(--branco);
+}
+
+.titulo_sp,
+.paragrafo_sp {
+
+    border: 1px solid var(--corbordas);
+    text-align: justify;
+    padding: 15px;
+
+}
+
+.titulo_sp,
+.paragrafo_sp,
+.sp {
+    position: relative;
+    top: 10px;
+
+}
+
+.golden_experience {
+    background-image: url(/img/quartpchique.png);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.titulo_ge {
+    background-color: var(--branco);
+    font-weight: 10;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.paragrafo_ge {
+    background-color: var(--branco);
+
+}
+
+.titulo_ge,
+.paragrafo_ge {
+    border: 1px solid var(--corbordas);
+    text-align: justify;
+    padding: 15px;
+}
+
+.titulo_ge,
+.paragrafo_ge,
+.ge {
+    position: relative;
+    top: 10px;
+}
+
+.titulo__ofertas,
+.ofertas__sub {
+    margin-right: 60px;
+}
+
+.ofertas__sub {
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.titulo__ofertas {
+    font-size: 50px;
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 100px;
+}
+
+.OFERTAS {
+    display: flex;
+}
+
+.sweet_scent {
+
+    background-image: url(/img/plano1.png);
+    background-size: cover;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-right: 60px;
+    margin-left: -200px;
+
+}
+
+.titulo_ss {
+    background-color: var(--branco);
+    font-weight: 10;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.paragrafo_ss {
+    background-color: var(--branco);
+}
+
+.titulo_ss,
+.paragrafo_ss {
+    border: 1px solid var(--corbordas);
+    text-align: justify;
+    padding: 15px;
+}
+
+.titulo_ss,
+.paragrafo_ss,
+.ss {
+    position: relative;
+    top: 10px;
+}
+
+
+.honey__moon {
+
+    background-image: url(/img/plano2.png);
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 60px;
+
+}
+
+.titulo_hm {
+    background-color: var(--branco);
+    font-weight: 10;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.paragrafo_hm {
+    background-color: var(--branco);
+    border-color: var(--corcaixas);
+
+}
+
+.titulo_hm,
+.paragrafo_hm {
+    border: 1px solid var(--corbordas);
+    text-align: justify;
+    padding: 15px;
+
+}
+
+.ge {
+    background-color: var(--branco);
+    padding: 10px 115px;
+    border-color: var(--corcaixas);
+
+}
+
+.sp {
+    background-color: var(--branco);
+    padding: 10px 150px;
+    border-color: var(--corcaixas);
+}
+
+.ss {
+    font-size: 10px;
+    padding: 2px;
+    width: 66px;
+    height: 64px;
+    position: absolute;
+    left: 736px;
+    top: 2217px;
+}
+
+.hm {
+    font-size: 10px;
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    left: 1156px;
+    top: 2213px;
+}
+
+.hm,
+.ss {
+    transform: rotate(270deg);
+    background-color: var(--branco);
+    border-color: var(--corcaixas);
+}
+
+.img__torta {
+    position: absolute;
+    right: 1450px;
+    top: 800px;
+    width: 600px;
+    /* Define a largura da imagem */
+    height: 50px;
+}
+
+.info__direita {
+    position: absolute;
+    right: 0;
+    top: 650px;
+    width: 600px;
+    /* Define a largura da imagem */
+    height: auto;
+    background-color: var(--boxdireita);
+
+}
+
+.comemore__img {
+    width: 550px;
+    /* Define a largura da imagem */
+    height: auto;
+    margin: 10px;
+
+}
+
+.comemore__titulo {
+    margin-left: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.comemore__texto {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+.historico {
+    margin: 15px;
+}
+
+.historico__titulo {
+    text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.historico__conteudo {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.historico__texto {
+    display: flex;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.historico__imagem {
+    margin-right: 15px;
+    width: 450;
+    height: auto;
+
+}
+
+.culinaria__titulo {
+    border-top: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.culinaria__imagem {
+    margin-right: 15px;
+    width: 450;
+    height: auto;
+    margin: 0px 20px;
+}
+
+.culinaria__conteudo {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.culinaria__texto {
+    flex: 1;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.localizacao {
+    margin: 20px;
+
+}
+
+.localizacao__titulo {
+    border-top: 2px solid black;
+    margin: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.localizacao__imagem {
+    margin-right: 15px;
+    width: 450;
+    height: auto;
+}
+
+.localizacao__conteudo {
+    display: flex;
+    align-items: center;
+
+}
+
+.localizacao__texto {
+    flex: 1;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.rodape {
+    margin: 10px;
+    padding: 20px;
+    background-color: var(--footer);
+    display: flex;
+}
+
+.rodape__texto {
+    margin-right: 20px;
+    justify-content: left;
+    margin-right: 600px;
+    
+}
+.rodape__email{
+
+}
+.class__rodape__contatos {
+    margin-right: 20px;
+}
+
+.class_siga {}
